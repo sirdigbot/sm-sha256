@@ -23,6 +23,8 @@
 #define _sha256_included
 
 
+#define SHA256_VERSION "1.0.0"
+
 #define HASH_SIZE_256BIT 65 // Number of bytes needed to fit a 256-bit hash string
 
 
