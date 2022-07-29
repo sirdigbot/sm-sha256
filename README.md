@@ -27,13 +27,13 @@ char output[HASH_SIZE_256BIT]; // size 65
 
 /* Text (UTF-8) */
 SHA256("The quick brown fox jumps over the lazy dog", output, sizeof(output));
-// output = "730e109bd7a8a32b1cb9d9a09aa2325d2430587ddbc0c38bad911525"
+// output = "d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592"
 SHA256("The quick brown fox jumps over the lazy dog?", output, sizeof(output));
 // output = "f77bc0c0d0779a6b329c7b9e847acb3797734ae531f08cc9d44cb4124d6e2b16"
 
 
-/* Hexadecimal bytes */
-SHA256("AA0066FFDEADBEEF", output, sizeof(output), String_Hex); // Case-insensitive
+/* Hexadecimal bytes (Case-insensitive) */
+SHA256("AA0066FFDEADBEEF", output, sizeof(output), String_Hex);
 // output = "1a61db0b7dc6ba6812d73eb6acdd2e84271c1124b0ec684192aca6f0933045a8"
 
 
