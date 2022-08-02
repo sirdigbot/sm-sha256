@@ -3,11 +3,10 @@ An single-include file that implements a SHA-256 hashing function in native Sour
 
 
 ## Disclaimer
-I have broken the golden rule of cryptography: Do not roll your own crypto code. Ever.  
-I am not a cryptographer. I am not even a smart programmer. I am some doofus that was bored enough to copy down the algorithm from wikipedia.  
-I make no guarantees that it is even fully functional, let alone bug free.  
+I make no guarantees that this code is even fully functional, let alone bug free.  
+Any use of this code for security purposes is entirely at your own risk.  
 
-What I\'m saying is **any use of this code for security purposes is entirely at your own risk.**
+Also, *do not use SHA-256 for security*, doofus. Use a password-specific hashing algorithm like bcrypt.
 
 
 ## How to use
